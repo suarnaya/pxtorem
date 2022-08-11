@@ -1,5 +1,5 @@
-const remInput = document.querySelectorAll('input')[1];
 const pxInput = document.querySelectorAll('input')[0];
+const remInput = document.querySelectorAll('input')[1];
 
 pxInput.focus();
 
@@ -30,12 +30,9 @@ function copyToClipboard(i) {
   }
 }
 
-function whenMouseOutBtn(i) {
-  if (i === 'rem') {
-    const tooltip = document.getElementById('remTooltip');
-    tooltip.innerHTML = 'Copy';
-  } else {
-    const tooltip = document.getElementById('pxTooltip');
-    tooltip.innerHTML = 'Copy';
-  }
+function whenMouseOutBtn() {
+  const pxTooltip = document.getElementById('pxTooltip');
+  const remTooltip = document.getElementById('remTooltip');
+  pxTooltip.innerHTML = 'Copy';
+  remTooltip.innerHTML = 'Copy';
 }
