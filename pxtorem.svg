@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="190.81146mm"
+   height="196.30266mm"
+   viewBox="0 0 190.81147 196.30266"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="remtopx.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="0.95497112"
+     inkscape:cx="495.82651"
+     inkscape:cy="376.97475"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-10.581732,-6.7298629)">
+    <rect
+       style="fill:none;stroke:#ffffff;stroke-width:5.94628;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       id="rect28271"
+       width="184.86519"
+       height="190.35638"
+       x="13.554872"
+       y="-200.05939"
+       transform="scale(1,-1)"
+       inkscape:export-filename="pxtorem"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-size:81.3015px;font-family:Impact;-inkscape-font-specification:'Impact, Normal';direction:rtl;fill:#ffffff;stroke-width:0.42411"
+       x="188.46005"
+       y="178.79478"
+       id="text24543"><tspan
+         sodipodi:role="line"
+         id="tspan24541"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.3015px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.424112"
+         x="188.46005"
+         y="178.79478">REM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:81.3015px;font-family:Impact;-inkscape-font-specification:'Impact, Normal';text-align:center;direction:rtl;text-anchor:middle;fill:#ffffff;stroke-width:0.42411"
+       x="102.81162"
+       y="89.232437"
+       id="text26805"><tspan
+         sodipodi:role="line"
+         id="tspan26803"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.3015px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.424112"
+         x="102.81162"
+         y="89.232437">PX</tspan></text>
+  </g>
+</svg>
