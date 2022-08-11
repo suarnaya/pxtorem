@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fa -->
+    <script
+      src="https://kit.fontawesome.com/78752f5a01.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>px to rem - Converter</title>
+  </head>
+  <body>
+    <main>
+      <h1>PX TO REM ONLINE CONVERTER</h1>
+      <section class="converter">
+        <div class="px">
+          <i
+            class="fa-regular fa-clipboard tooltip"
+            onclick="copyToClipboard('px')"
+            onmouseout="whenMouseOutBtn('px')"
+            ><span id="pxTooltip">Copy</span></i
+          >
+
+          <!-- ! pakai type text agar desimal dicetak dengan titik, kalau number dicetak dengan koma -->
+          <input
+            type="text"
+            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
+          />
+          <span>px</span>
+        </div>
+        <span>=</span>
+        <div class="rem">
+          <i
+            class="fa-regular fa-clipboard tooltip"
+            onclick="copyToClipboard('rem')"
+            onmouseout="whenMouseOutBtn('rem')"
+            ><span id="remTooltip">Copy</span></i
+          >
+
+          <!-- ! pakai type text agar desimal dicetak dengan titik, kalau number dicetak dengan koma -->
+          <input
+            type="text"
+            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
+          />
+          <span>rem</span>
+        </div>
+      </section>
+
+      <!--  -->
+
+      <!--  -->
+
+      <section class="table-section">
+        <table>
+          <caption>
+            Quick size
+          </caption>
+          <tbody>
+            <tr>
+              <th>px</th>
+              <th>rem</th>
+            </tr>
+            <tr>
+              <td>8 px</td>
+              <td>0.5 rem</td>
+            </tr>
+            <tr>
+              <td>16 px</td>
+              <td>1 rem</td>
+            </tr>
+            <tr>
+              <td>24 px</td>
+              <td>1.5 rem</td>
+            </tr>
+            <tr>
+              <td>28 px</td>
+              <td>1.75 rem</td>
+            </tr>
+            <tr>
+              <td>32 px</td>
+              <td>2 rem</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <caption>
+            Common size
+          </caption>
+          <tbody>
+            <tr>
+              <th>px</th>
+              <th>rem</th>
+              <th>description</th>
+            </tr>
+            <tr>
+              <td>432 px</td>
+              <td>27 rem</td>
+              <td>mobile L width</td>
+            </tr>
+            <tr>
+              <td>640 px</td>
+              <td>40 rem</td>
+              <td>sm container</td>
+            </tr>
+            <tr>
+              <td>768 px</td>
+              <td>48 rem</td>
+              <td>md container</td>
+            </tr>
+            <tr>
+              <td>1024 px</td>
+              <td>64 rem</td>
+              <td>lg container</td>
+            </tr>
+            <tr>
+              <td>1280 px</td>
+              <td>80 rem</td>
+              <td>xl container</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

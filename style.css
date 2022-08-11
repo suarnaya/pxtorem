@@ -1,0 +1,151 @@
+:root {
+  --bg: #313146;
+  --main: hsl(240, 10%, 30%);
+  --sec: hsl(240, 10%, 37%);
+  --blue: #0a0a23;
+  --white: #fff;
+  --text: #dddee0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+main {
+  margin: 1rem auto;
+  width: min(64rem, 95%);
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+/* converter start */
+/* display block in mobile width */
+.converter {
+  display: block;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.converter div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+  border: 2px solid var(--text);
+}
+.converter div:hover {
+  border: 2px solid var(--white);
+}
+
+i {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+i:hover {
+  color: var(--white);
+}
+
+i span {
+  position: absolute;
+  font-size: 1rem;
+  background-color: var(--blue);
+  color: var(--white);
+  text-align: center;
+  width: 5rem;
+  padding: 0.5rem;
+  z-index: 1;
+  bottom: 140%;
+  left: 50%;
+  margin-left: -2.5rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+i span::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--blue) transparent transparent transparent;
+}
+i:hover span {
+  visibility: visible;
+  opacity: 1;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  font-size: 2rem;
+  color: var(--text);
+  padding: 1rem 0;
+}
+/* converter end */
+
+/* table start */
+.table-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(17rem, 100%), 1fr));
+  gap: 1em;
+}
+
+table {
+  text-align: center;
+  line-height: 1.5em;
+  padding: 1em;
+  background-color: var(--main);
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+table caption {
+  background-color: var(--blue);
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+td,
+th {
+  padding: 1rem 0;
+}
+
+th {
+  color: var(--white);
+  font-size: 1.2rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--sec);
+}
+
+/* display flex wider than mobiel width */
+@media (min-width: 37rem) {
+  .converter {
+    display: flex;
+    gap: 1rem;
+    padding: 0 1rem;
+    align-items: center;
+  }
+}
